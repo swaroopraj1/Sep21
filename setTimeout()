@@ -3,6 +3,6 @@ function abc() {
   a= 5;
   b= 10;
   c= a*b;
-  alert("The result is " +c+"!!"+"\n" +"Which is shown after 4 seconds.");
+  alert("The result is " +c+"!!"+"\n" +"Which is shown after 4 seconds"+ "and is executed on "+ Date());
 }
 var display = setTimeout(abc, 4000);
